@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "US-West-1"
+  region = "us-east-2"
 
 }
 
