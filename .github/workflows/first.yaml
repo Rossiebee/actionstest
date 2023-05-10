@@ -14,7 +14,9 @@ jobs:
     - name: Terraform init
       run: terraform init 
     - name: Terraform Validate
-      run: terraform validate 
+      run: terraform validate
+    - name: Terraform plan
+      run: terraforn plan 
     - name: echo string
       run: echo "Hello"
     - name: Multi line string
